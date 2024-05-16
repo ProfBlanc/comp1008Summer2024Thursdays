@@ -7,10 +7,14 @@ Output their age in
 	minutes
 	hours
 	seconds
-
 Task 2: Ask the user for two numbers
 	Ask the user for an operator (+, -, *, /)
-
+	Output the result of the aritmetic operation:
+		EG.
+		enter num1 : 10
+		enter num2 : 20
+		enter op (+,-,*,/): *
+		result = 10 * 20 = 200
 Task 3:
 	Create an app that delivers a pizza to a person for a fee
 	Ask the user for a size of pizza. Only accept S,M,L,X
@@ -19,13 +23,12 @@ Task 3:
 	Ask user distance to home from restaurant. only accept 1-20km
 	Display cost to user. $5 base charge, add $2 for each size step
 	Charge $2.5 topping. Charge $1.25 per kilometer
-
 Task 4:
 	Ask the user to two number ranges.
 	Ensure number range has a difference of at least 4 values
 	Create a random value to guess between the number range (inclusive)
 	Give the user 3 chances to guess the number.
-	After the 2nd inccorrect guess, give user the hint of:
+	After the 2nd inccorect guess, give user the hint of:
 		half of this number is: {value}
 	Output either congrats message or sorry message.
 	Display number of guesses user took to play game.
