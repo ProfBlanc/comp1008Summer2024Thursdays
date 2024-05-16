@@ -1,0 +1,71 @@
+C# vs Java
+
+C#: classes are organized by _________
+
+namespace			package
+		folders
+
+
+What is the default name for the class that auto-runs
+in C#?
+
+Program				you decide
+				Main
+
+What is the extention for
+C#?
+.ca				.java
+
+
+What is the name of the default METHOD that auto-runs?
+
+
+Main				main
+
+naming conventions
+
+
+C#				java
+
+classname
+
+PascalCase			PascalCase
+
+
+method man
+
+PascalCase			camelCase
+
+
+
+Output
+
+
+Console.Write(Line());		System.out.print(ln());
+
+
+Input
+
+Console.ReadLine();		Scanner ob=> System.in
+				various s-ob methods
+
+
+
+data types
+
+C#				Java
+
+int				y
+float				y
+bool				boolean
+string				String
+char				y
+double				y
+long				y
+short				y
+byte				y
+
+ushort
+ulong
+sbyte
+uint
