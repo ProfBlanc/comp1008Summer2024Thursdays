@@ -101,11 +101,35 @@ public class Week1 {
             System.out.println(num1 + " & " + num2);
         }
     }
+
+    static  void example6(){
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter num1: ");
+        int num1 = input.nextInt();
+
+        System.out.println("Enter number 2: ");
+        int num2 = input.nextInt(); //"20\n"
+        input.nextLine(); //received "\n"
+
+        System.out.println("Enter operator");
+        //consume the nl chara
+
+        String op = input.nextLine();
+
+        if(op.equals("+")){
+            System.out.println(num1 + num2);
+        }
+        else if (op.equals("-")){
+            System.out.printf("%d - %d = %d", num1, num2, num1-num2);
+
+        }
+    }
     // psvm+tab
     public static void main(String[] args) {
         //sout+tab
 //        System.out.println("OH! Now I remember");
-        example5();
+        example6();
     }
 
 }
