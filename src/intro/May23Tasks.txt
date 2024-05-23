@@ -15,3 +15,26 @@ Steps)
             - ask again. do not add name to the String array
         - if name IS at least 3 chars
             - store it in the string array
+
+
+Task 2
+Create a class named Pizza
+    one method named deliver
+        take 1 String argument representing an address
+            output: Your pizza will be delivered to {address}
+
+    overload deliver
+        takes 1 String arg: represents address: 1 number arg: represents ETA
+            output: Your pizza will be deliverd to {address} in {ETA} minutes
+
+    overload deliver
+        takes no args
+            output: Your pizza is ready for pick-up at the store.
+Go to main method of Week3 class
+    Create an Pizza object, call the 3 deliver methods => should output to STDOUT
+
+
+Task 3
+    Create 5 attributes (instance variables) for pizza
+    have at least 3 accessLevels for your 5 attributes
+    2 attributes to have default values
