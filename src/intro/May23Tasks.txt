@@ -1,0 +1,17 @@
+Task 1
+
+Create an empty array of Strings of 3 values
+Ask the user to input 3 names with at least 3 chars
+Only add the user name iff the name is at least 3 chars
+
+Steps)
+-create an empty array
+-create Scanner object
+-create loop
+    - ask user for name
+    - validate
+        - determine string length using if statement and length() method
+        - if name IS NOT at least 3 chars
+            - ask again. do not add name to the String array
+        - if name IS at least 3 chars
+            - store it in the string array
