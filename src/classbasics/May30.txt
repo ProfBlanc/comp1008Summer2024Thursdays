@@ -1,0 +1,63 @@
+Primitive
+    numerical
+        boolean, char, all other nums (short, int, long, float, double)
+
+Reference
+    not a number
+        String
+        Objects
+
+
+When you want to validate values => set the Access Level as private
+
+
+AcessLevel
+
+public: access to entity anywhere
+
+protected, default: access to entity in same package
+
+private: access to entity only in class
+
+
+
+Getter/Setter
+    special method that allows user to have indirect access to private instance variable
+        Why? Restrict values => validation
+        1: Getter: retrieve value
+        2: Setter: enforce limitations
+
+
+Instance Variable: variable declared outside a method, inside a class
+                    Accessible throughout every method
+
+                    attribute/characteristic
+
+
+Tasks
+
+Task 1
+Transform all instance variables to private
+
+Task 2
+Create the getters and setters for all private instance variables
+
+Task 3
+Create the documentation for all getters and setters
+
+Task 4
+Enforce the following restrictions for
+
+age
+    between 13-65
+
+height: between 50-230
+
+weight: between 40 and you choose an upper bound
+
+Task 5
+overload validateName
+    add two additional boolean values
+        to allow spaces
+        to allow hyphens
+        validateName(String, boolean, boolean)
