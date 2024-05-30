@@ -21,6 +21,10 @@ public class Week4 {
         p1.setName("How are you doing?");
         System.out.println(p1.getName());  //
 
+        System.out.println(p1.isOld());
+        System.out.println(p1.isTall());
+        System.out.println(p1.hasStrongBones());
 
+        Person p2 = new Person("Ben", (byte)20, (float)1.8, (double)200);
     }
 }

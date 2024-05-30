@@ -32,7 +32,15 @@ Instance Variable: variable declared outside a method, inside a class
                     Accessible throughout every method
 
                     attribute/characteristic
+Constructor
+    special method
+        has no return data type
+        exact same name as the class
+        Create an object
 
+Factory Method
+    method that returns an object of the class
+    static method => belongs to the class and not an instance of the class
 
 Tasks
 
@@ -61,3 +69,14 @@ overload validateName
         to allow spaces
         to allow hyphens
         validateName(String, boolean, boolean)
+
+
+Task 6
+Create a Student class
+    name: at least 5 chars
+    age: at least 18
+    grade: 0-100
+Allow the user to construct this Student object in 5 different ways (default + 4 ways)
+Create a preset (factory method) category
+    MatureStudent   =>      age is 30 or older
+    DeanListStudent =>      80% grade or higher
