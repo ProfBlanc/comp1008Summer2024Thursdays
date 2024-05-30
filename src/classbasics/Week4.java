@@ -26,5 +26,13 @@ public class Week4 {
         System.out.println(p1.hasStrongBones());
 
         Person p2 = new Person("Ben", (byte)20, (float)1.8, (double)200);
+
+
+        Person p3 = Person.OldPerson();
+
+        Student s1 = Student.MatureStudent();
+
+//        s1.MatureStudent(); // no good
+
     }
 }
