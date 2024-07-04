@@ -1,0 +1,22 @@
+School Course Evaulations Tracker
+
+
+Enter a school: GeorgianCollege
+Enter a year: 2024
+Enter a semester: summer
+
+Create the directory structure
+		src/filemanipulation/funtask/   => root Path
+
+		GeorgianCollege/2024/summer
+
+Ask user to enter a course code: comp1008
+Create this directory inside of      ^
+
+src/filemanipulation/funtask/GeorgianCollege/2024/summer/comp1008
+
+how many evaluations have you had? 2
+
+use a loop, ask user to enter the name and grade of each evaluation
+Write to the path above a file named evaluation.txt
+content of file will be the grade

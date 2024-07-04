@@ -1,0 +1,35 @@
+File Manipulation
+    Changing files and folders in the File System
+        File System (FS)
+            Explorer, Finder
+
+    Why?
+        Save data
+            Data persistent
+                Database
+                File Manipulation
+
+    What is possible
+        CRUD
+
+        Create
+        Read (Open)
+        Update (Edite)
+        Delete
+
+            for files and folders
+Java uses 2 packages
+    java.io
+    java.nio
+
+Objects
+    Path
+        location to a file or folder
+            like an address
+    File
+        a single instance of a file or folder
+        to accomplish CRUD operation
+
+    Files
+        class with static methods to facilitate CRUD operations
+
