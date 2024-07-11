@@ -14,7 +14,7 @@ public class Student extends Person{
         this.studentID = studentID;
     }
 
-    public double student(int howLong){
+    public double study(int howLong){
         return howLong * (3/4.0);
     }
     public double takeTest(String testName, int duration){
