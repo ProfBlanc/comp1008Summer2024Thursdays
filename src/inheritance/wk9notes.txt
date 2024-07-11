@@ -1,0 +1,57 @@
+Inheritance
+        creating a class BASED on another class
+
+OLD                     NEW
+
+parent                  child
+base                    derived
+super                   sub
+
+
+
+Java support single-class inheritance
+
+Great-Grandparent   Grandparent Parent  Child
+
+Object is the base class for EVERY class
+
+
+
+What is the point of inheritance
+    to use previously existing things
+        what things?
+            non-private
+                instance variables
+                constants
+                methods
+                constructors *
+    What is the deal with constructor?
+        Only the default constructor is inherited
+
+toString() method is supposed to summarize the object properties/summarize the object
+
+Override: re-write/change/new implementation
+
+There is no way no remove/delete anything inherited
+You cannot modify names of anything inherited
+you CAN modify behaviour of a method body       Overriding
+
+
+Polymorphism
+    Greek term
+    Poly=multiple/many
+    morphism=shape/body/forms/versions
+
+
+                    Microsoft
+Windows         Xbox        LinkedIn        GitHub
+
+
+Microsoft = new Xbox()
+
+
+
+Animal      Canine         Dog
+                           Wolf
+
+

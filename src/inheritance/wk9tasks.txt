@@ -1,0 +1,50 @@
+Task 1
+Create a class named Animal
+    name: public
+    teeth: private
+    paws: protected
+
+    toString: to summarize instance variables
+    2 constructors: default and 3-arg
+    1 method: growl: return half of its teeth
+
+Task 2
+Create a class named Lion. Based on Animal
+    mane: String: you choose access level
+    whiskers: int/double: you choose access level
+
+    override toString to include 2 instance vars
+    create 3 constructors. 2 override Animal constructor
+    1 allows 5 instance vars to be added
+    override growl: return 3/4 of teeth
+    add additional method (be creative)
+
+Task 3
+Create a MountainLion: Based on Lion
+    add any 1 additional instance variable
+    override toString to include additional instance var
+    create 4 constructors. 3 override Lion constructor
+    1 allows 6 instance vars to be added
+
+Task 4
+    In a main method (Week 9), instance Animal class using 3-arg construct.
+    Output all instance variables. Output the result of growl() and toString().
+
+Task 5
+    In a main method (Week 9), instance Lion class using 4-arg construct.
+    Output all instance variables. Output the result of growl() and toString() and custom method.
+
+Task 6
+    In a main method (Week 9), instance MountainLion class using 5-arg construct.
+    Output all instance variables. Output the result of growl() and toString().
+Task 7
+    In main method (Week 9), create a Animal object that instantiates a Lion using 3-arg construct
+    Output the toString and growl() method
+
+Task 8
+    In main method (Week 9), create a Lion object that instantiates a MountainLion using 3-arg construct
+    Output the toString and growl() method
+
+Task 9
+    In main method (Week 9), create a Animal object that instantiates a MountainLion using 3-arg construct
+    Output the toString and growl() method
