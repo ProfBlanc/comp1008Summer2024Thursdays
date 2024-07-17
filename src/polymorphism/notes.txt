@@ -1,0 +1,108 @@
+Polymorphism
+    Poly = multiple
+    morphism = body, forms, version
+
+A class/entity
+    can use component from another entity
+
+Two types of compoenent
+    internal = computer chips
+        abstract classes
+
+    external = screen
+        interfaces
+
+charecteritics of internal components
+    NOT useful by itself
+        needs to be part of an entity
+            incomplete class
+
+    abstract classes CANNOT be instantiated
+    abstract classes are dedicated parent class
+
+    What things can be included in abstract
+        constructors
+        methods
+        instance variable
+        constants
+            EVERYTHING that a Concrete class
+            has, an abstract class can have
+
+    An abstract class CAN have an abstract method
+        is an incomplete method => a method declare but not implement
+            has no method body. no braces with statements inside
+
+
+    Define a Shape
+
+    Define an abstract method
+
+
+Interface
+    external component of a class
+    a list of requirements that the class must implement
+    only has method declarations
+        no instance variable, constructors, methods.
+        ONLY method declaration => force sub-class to implement
+        these requirements
+    tends to define requirements/methods that INTERACT with USER
+
+A Concrete class can have a max of 1 parent class
+    another concrete class
+    or an abstract class
+A Concrete class can have multiple Interfaces
+
+Can an abstract class extend another abstract class?  YES
+
+Game part 1
+Me: State an object
+You: Tell me if object is good candidate for
+    Concrete class
+    Abstract class
+    Interface
+
+q1) Is this object functional by itself?
+        Y: concrete
+        N: go to question 2
+
+q2) Is this component an internal component of a bigger object or external
+        internal: abstract class
+        external: interface
+
+Human/Person        concrete
+Laptop              concrete
+Car                 concrete
+Bike                concrete
+Backpack            concrete or interface
+Home                concrete
+
+Apartment 101
+in building        abstract
+
+Heart               abstract
+Floor               abstract
+
+Ex HHD              interface
+Nvidia graphic
+chip                abstract
+
+Hair                interface
+
+Door                interface
+Steering Wheel      interface
+
+
+Game part 2
+
+Me: State a component
+You: Say whether this component can be implemented in
+    Concrete
+    Abstract
+    interface
+
+Instance Variable:      Concrete    Abstract
+Constant Values:        Concrete    Abstract    Interface
+Constructors            Concrete    Abstract
+Regular Method          concrete    abstract
+abstract methods        abstract    interface
+
